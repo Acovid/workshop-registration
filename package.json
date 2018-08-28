@@ -1,0 +1,18 @@
+{
+  "name": "register-cloud-4dev-lj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Ram Dusic Hren",
+  "license": "ISC",
+  "dependencies": {
+    "@cloudant/cloudant": "^2.2.0",
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "fs": "0.0.1-security"
+  }
+}

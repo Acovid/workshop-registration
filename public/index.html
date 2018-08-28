@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Register</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="cloud.png">
+</head>
+
+<body>
+  <!-- jumbotron with logo -->
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <img src="ibm_cloud.png" alt="IBM Cloud" class="banner">
+    </div>
+  </div>
+  <!-- end of jumbotron  -->
+
+  <div class="container">
+    <!-- workshop title -->
+    <h1>IBM Cloud for Developers Workshop</h1>
+    <h4>September 27, 2018 at 9.00 - 16.00</h4>
+    <h4>Ljubljana</h4>
+    <br>
+    <!-- end of workshop title -->
+
+    <!-- workshop description -->
+    <p>
+      This workshop provides a review of key concepts related to IBM Cloud Platform (CP) - formerly known as Bluemix. It is structured
+      as a series of lectures accompanied by demonstrations and hands-on labs. Completing this course will give you experience
+      with IBM CP and show you how to build and deploy applications for the cloud that are scalable, reliable and secure.
+      This one day workshop is also a first step in preparation for the certification exam “IBM Cloud Platform Application
+      Development V2”. Other steps and materials necessary to earn the above mentioned certificate will be shared at this
+      workshop.
+    </p>
+    <br>
+    <!-- workshop description -->
+
+    <!-- registration button -->
+    <a href="#register" class="btn btn-primary">Register</a>
+    <br>
+    <hr class="my-4">
+    <!-- end of registration button -->
+
+    <!-- content -->
+    <h4>Content</h4>
+    <p>
+      <strong>Part 1: Create applications on IBM Cloud.</strong>
+      </br>Understand cloud service models and benefits, IBM Cloud architecture, best practices in cloud application design.</p>
+    <p>
+      <strong>Part 2: Enhance applications with CP services and security.</strong>
+      </br>Learn about different services available in the CP catalog and steps that you can take to secure your applications,
+      credentials for services, and application data.</p>
+    <p>
+      <strong>Part 3: Continuous delivery and management of cloud apps.</strong>
+      </br>Learn how CP supports DevOps by using Continuous Delivery toolchains. Learn about techniques to monitor applications,
+      manage the scaling of applications, and debug application issues.</p>
+    <!-- end of content -->
+
+    <!-- agenda -->
+    <hr class="my-4">
+    <h4>Agenda</h4>
+    <ol>
+      <li>IBM Cloud models and capabilities - lecture</li>
+      <li>App development, deployment and best practices in cloud - lecture</li>
+      <li>CP management and Command Line Interface (CLI) - lecture</li>
+      <li>Use CLI to deploy and manage apps on CP - lab</li>
+      <li>Enhance apps with CP messaging and Object storage - lecture</li>
+      <li>Data services and databases on CP – lecture</li>
+      <li>Add and use Object Storage service – lab</li>
+      <li>Setup and use Cloudant, a NoSQL database - lab</li>
+      <li>Source code management, continuous delivery and pipeline – lecture</li>
+      <li>App scaling and monitoring, load testing – lecture</li>
+      <li>Security – lecture</li>
+      <li>Optional labs:
+        <ul>
+          <li>Create and use a toolchain</li>
+          <li>Code source control management with Git</li>
+          <li>Manage continuous delivery and integration</li>
+        </ul>
+      </li>
+    </ol>
+    <hr class="my-4">
+    <!-- end of agenda -->
+
+    <!-- instructor info -->
+    <div class="row">
+      <div class="col-lg-12">
+        <h4 style="margin-bottom: 20px;">Instructor</h4>
+      </div>
+      <div class="col-lg-12">
+        <img src="aco.jpeg" alt="Aco Vidovič" class="img-thumbnail float-left">
+        <div>
+          <strong>Aco Vidovič</strong>
+          <p>IBM certified application developer - Cloud Platform
+            <br>Ecosystem Advocacy Group & Developer Ecosystem Group Leader
+            <br>IBM Central & Eastern Europe</p>
+        </div>
+      </div>
+    </div>
+    <hr class="my-4">
+    <!-- end of instructor info -->
+
+    <!-- student prerequisites -->
+    <h4>Student prerequisites</h4>
+    <ul>
+      <li>Some programming experience is required</li>
+      <li>Bring your own laptop, you will use it to run hands-on labs</li>
+    </ul>
+    <hr class="my-4">
+    <!-- end of student prerequisites -->
+
+    <!-- location -->
+    <h4>Location</h4>
+    <p>IBM Innovation Center Ljubljana
+      <br> Kristalna palača, BTC
+      <br> Ameriška ulica 8, 1000 Ljubljana
+      <br> 3rd floor</p>
+    <hr class="my-4">
+    <!-- end of location -->
+
+    <!-- registration form -->
+    <div id="register">
+      <h4 style="margin-bottom: 20px;">Register</h4>
+      <form action="/" method="POST">
+        <div class="form-group">
+          <input class="form-control" type="text" name="participant[fname]" placeholder="First Name" required>
+        </div>
+        <div class="form-group">
+          <input class="form-control" type="text" name="participant[lname]" placeholder="Last Name" required>
+        </div>
+        <div class="form-group">
+          <input class="form-control" type="email" name="participant[email]" placeholder="Email" required>
+        </div>
+        <div class="form-group">
+          <input class="form-control" type="text" name="participant[company]" placeholder="Company" required>
+        </div>
+        <div class="form-group">
+          <button class="btn btn-primary">Submit</button>
+        </div>
+      </form>
+    </div>
+    <hr class="my-4">
+    <!-- end of registration form -->
+
+    <!-- footer -->
+    <div class="row footer">
+      <div class="col-lg-6 col-md-6" style="text-align: center;">
+        <img src="marmis.png" alt="Marmis" class="logo">
+      </div>
+      <div class="col-lg-6 col-md-6" style="text-align: center;">
+        <img src="logo.png" alt="IBM" class="logo">
+      </div>
+    </div>
+    <!-- end of footer -->
+
+  </div>
+</body>
+
+</html>

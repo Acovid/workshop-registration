@@ -1,0 +1,10 @@
+declared-services:
+  register-cloud-4dev-lj-cloudantNoSQLDB:
+    label: cloudantNoSQLDB
+    plan: Lite
+applications:
+  - name: register-cloud-4dev-lj
+    random-route: true
+    memory: 256M
+    services:
+      - register-cloud-4dev-lj-cloudantNoSQLDB
